@@ -1,0 +1,63 @@
+.pagecontainer {
+    margin: 0px 180px 0px 100px;
+
+    h2 {
+        font-size: 1.3rem;
+        text-align: justify;
+        margin: 0px;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+        text-align: justify;
+        margin: 0px;
+    }
+    
+    .bold {
+        font-weight: bold;
+    }
+
+    .margin {
+        margin-bottom: 20px;
+    }
+
+    .paragraph-tab {
+        padding-left: 50px;
+    }
+
+    .list-tab {
+        padding-left: 100px;
+    }
+
+    .big {
+        font-size: 2rem;
+    }
+
+    .color {
+        color: #2b7a78;
+    }
+
+    li {
+        text-align: justify;
+    }
+
+    a {
+        color: #2b7a78;
+
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .pagecontainer {
+        margin: 50px 20px 0px 20px;
+
+        .paragraph-tab {
+            padding-left: 0px;
+        }
+    
+        .list-tab {
+            padding-left: 0px;
+        }
+    }
+}

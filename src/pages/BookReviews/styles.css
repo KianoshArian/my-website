@@ -1,0 +1,29 @@
+.bookreview-page {
+    margin: 0px 180px 0px 100px;
+
+    h2 {
+        text-align: center;
+    }
+
+    .books {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 30px;
+        margin-top: 30px;
+        justify-content: center;
+
+        .book {
+            width: 200px;
+            height: auto;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .bookreview-page {
+        margin: 50px 20px 0px 20px;
+
+    }
+}

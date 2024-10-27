@@ -1,0 +1,32 @@
+.pageContainer {
+    margin: 50px 180px 0px 100px;
+
+    h2 {
+        font-size: 1.3rem;
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+
+    .big {
+        font-size: 2rem;
+    }
+
+    .margin {
+        margin-bottom: 20px;
+    }
+    
+    .color {
+        color: #2b7a78;
+    }
+
+    a {
+        color: #2b7a78;
+
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .pageContainer {
+        margin: 50px 20px 0px 20px;
+    }
+}

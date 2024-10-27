@@ -7,6 +7,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import MenuIcon from '@mui/icons-material/Menu';
 import { useEffect, useState } from "react";
 import avatar from '../../assets/avatar.jpg'
+import { Link } from "react-router-dom";
 
 export const Sidebar = ({children}) => {
   const isMobile = useMediaQuery('(max-width:1400px)');
@@ -44,7 +45,7 @@ export const Sidebar = ({children}) => {
           <img className="avatar" alt="avatar" src={avatar} />
           <h2>Kianosh Arian</h2>
           {items.map((item, index) => (
-            <a href={item.path} key={index}><p className='item'>{item.name}</p></a>
+            <Link href={item.path} key={index}><p className='item'>{item.name}</p></Link>
           ))}
           <div className="socials">
             <p className='item'>Contact</p>

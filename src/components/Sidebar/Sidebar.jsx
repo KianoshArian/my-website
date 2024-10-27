@@ -7,17 +7,16 @@ import EmailIcon from '@mui/icons-material/Email';
 import MenuIcon from '@mui/icons-material/Menu';
 import { useEffect, useState } from "react";
 import avatar from '../../assets/avatar.jpg'
-import { Link } from "react-router-dom";
 
 export const Sidebar = ({children}) => {
   const isMobile = useMediaQuery('(max-width:1400px)');
   const [open, setOpen] = useState(true)
 
   const items = [
-    {name: 'Home', path: '/'},
-    {name: 'Research', path: '/Research'},
-    {name: 'Honors', path: '/Honors'},
-    {name: 'Book Reviews', path: '/Book-Reviews'},
+    {name: 'Home', path: '/my-website/'},
+    {name: 'Research', path: '/my-website/Research'},
+    {name: 'Honors', path: '/my-website/Honors'},
+    {name: 'Book Reviews', path: '/my-website/Book-Reviews'},
   ]
   const socials = [
     {name: 'email', path: "mailto:kianosharian3@gmail.com", logo: <EmailIcon className="icon" />},
@@ -45,7 +44,7 @@ export const Sidebar = ({children}) => {
           <img className="avatar" alt="avatar" src={avatar} />
           <h2>Kianosh Arian</h2>
           {items.map((item, index) => (
-            <Link href={item.path} key={index}><p className='item'>{item.name}</p></Link>
+            <a href={item.path} key={index}><p className='item'>{item.name}</p></a>
           ))}
           <div className="socials">
             <p className='item'>Contact</p>

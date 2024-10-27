@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-website/static/css/main.95bef5e7.css",
-    "main.js": "/my-website/static/js/main.11c0d700.js",
+    "main.js": "/my-website/static/js/main.3753f286.js",
     "static/js/453.64edc6b5.chunk.js": "/my-website/static/js/453.64edc6b5.chunk.js",
     "static/media/three body problem.jpg": "/my-website/static/media/three body problem.2ac32156f4cbbec42eb0.jpg",
     "static/media/wheel of time.jpg": "/my-website/static/media/wheel of time.9904b8d45bc2646797dc.jpg",
@@ -15,11 +15,11 @@
     "static/media/KianoshArian.pdf": "/my-website/static/media/KianoshArian.771c89460af4e5e7802d.pdf",
     "index.html": "/my-website/index.html",
     "main.95bef5e7.css.map": "/my-website/static/css/main.95bef5e7.css.map",
-    "main.11c0d700.js.map": "/my-website/static/js/main.11c0d700.js.map",
+    "main.3753f286.js.map": "/my-website/static/js/main.3753f286.js.map",
     "453.64edc6b5.chunk.js.map": "/my-website/static/js/453.64edc6b5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.95bef5e7.css",
-    "static/js/main.11c0d700.js"
+    "static/js/main.3753f286.js"
   ]
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import { Home } from "./pages/Home/Home";
 import { Sidebar } from "./components/Sidebar/Sidebar";
 import { Research } from "./pages/Research/Research";
@@ -9,7 +9,7 @@ import { BookReviews } from "./pages/BookReviews/BookReviews";
 
 const App = () => {
   return (
-    <>
+    <Router>
       <Sidebar>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -18,7 +18,7 @@ const App = () => {
           <Route path="/Book-Reviews" element={<BookReviews />} />
         </Routes>
       </Sidebar>
-    </>
+    </Router>
   );
 };
 

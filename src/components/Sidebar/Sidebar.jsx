@@ -14,9 +14,9 @@ export const Sidebar = ({children}) => {
 
   const items = [
     {name: 'Home', path: '/my-website/'},
-    {name: 'Research', path: '/my-website/Research'},
-    {name: 'Honors', path: '/my-website/Honors'},
-    {name: 'Book Reviews', path: '/my-website/Book-Reviews'},
+    {name: 'Research', path: '/my-website/#/Research'},
+    {name: 'Honors', path: '/my-website/#/Honors'},
+    {name: 'Book Reviews', path: '/my-website/#/Book-Reviews'},
   ]
   const socials = [
     {name: 'email', path: "mailto:kianosharian3@gmail.com", logo: <EmailIcon className="icon" />},

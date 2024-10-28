@@ -7,7 +7,8 @@ export const Research = () => {
       <div className='margin' />
       <h2><span className='color'>Software Engineering and Applied AI:</span></h2>
       <div className='margin' />
-      <h3 className='paragraph-tab'>Computer Science and Programming have been amongst my passions since my childhood. I am fortunate to be able to pursue this field as an adult and I am always eager to expand my horizons by learning new methods, technologies, and concepts.</h3>
+      {/* <h3 className='paragraph-tab'>Computer Science and Programming have been amongst my passions since my childhood. I am fortunate to be able to pursue this field as an adult and I am always eager to expand my horizons by learning new methods, technologies, and concepts.</h3> */}
+      <h3></h3>
       <h3 className='paragraph-tab'>One of the research areas in Software Engineering that I am currently studying is the processes and tools revolving around <span className='color'>the Development Workflow</span>. During the last two years of my bachelor's degree, I worked part time as a programmer and then as a technical product manager in the industry. This experience taught me that the Software Engineering process gets more complicated by day (CI/CD, code review, testing, new technologies, frameworks and etc), and therefore, creating tools that assist developers in their workflow can be really helpful. The introduction of AI Assistants and LLMs in recent years brings so many possibilities in researching ways to enable software engineers to create faster and higher quality code.</h3>
       <div className='margin' />
       <h2 className='paragraph-tab'><span className='color'>Some of my favorite papers in this field:</span></h2>

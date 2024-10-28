@@ -111,6 +111,10 @@
     }
 }
 
+.no-decoration {
+    text-decoration: none;
+}
+
 @media only screen and (max-width: 800px) {
     .layout {
         .content {

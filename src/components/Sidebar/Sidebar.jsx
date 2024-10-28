@@ -44,7 +44,13 @@ export const Sidebar = ({children}) => {
           <img className="avatar" alt="avatar" src={avatar} />
           <h2>Kianosh Arian</h2>
           {items.map((item, index) => (
-            <a href={item.path} key={index}><p className='item'>{item.name}</p></a>
+            <a 
+            href={item.path} 
+            key={index} 
+            className="no-decoration" 
+            onClick={()=>isMobile && setOpen(false)}>
+              <p className='item'>{item.name}</p>
+            </a>
           ))}
           <div className="socials">
             <p className='item'>Contact</p>

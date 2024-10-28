@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-website/static/css/main.95bef5e7.css",
-    "main.js": "/my-website/static/js/main.c705b284.js",
+    "main.css": "/my-website/static/css/main.06861c84.css",
+    "main.js": "/my-website/static/js/main.20dadb95.js",
     "static/js/453.64edc6b5.chunk.js": "/my-website/static/js/453.64edc6b5.chunk.js",
     "static/media/three body problem.jpg": "/my-website/static/media/three body problem.2ac32156f4cbbec42eb0.jpg",
     "static/media/wheel of time.jpg": "/my-website/static/media/wheel of time.9904b8d45bc2646797dc.jpg",
@@ -14,12 +14,12 @@
     "static/media/discworld.jpg": "/my-website/static/media/discworld.2ac776121edca2e21ebf.jpg",
     "static/media/KianoshArian.pdf": "/my-website/static/media/KianoshArian.771c89460af4e5e7802d.pdf",
     "index.html": "/my-website/index.html",
-    "main.95bef5e7.css.map": "/my-website/static/css/main.95bef5e7.css.map",
-    "main.c705b284.js.map": "/my-website/static/js/main.c705b284.js.map",
+    "main.06861c84.css.map": "/my-website/static/css/main.06861c84.css.map",
+    "main.20dadb95.js.map": "/my-website/static/js/main.20dadb95.js.map",
     "453.64edc6b5.chunk.js.map": "/my-website/static/js/453.64edc6b5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.95bef5e7.css",
-    "static/js/main.c705b284.js"
+    "static/css/main.06861c84.css",
+    "static/js/main.20dadb95.js"
   ]
 }

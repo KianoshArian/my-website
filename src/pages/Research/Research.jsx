@@ -20,7 +20,10 @@ export const Research = () => {
         Wu, Yixi & He, Pengfei & Wang, Zehao & Wang, Shaowei & Tian, Yuan & Tse-Hsun, & Chen,. (2024). <span className='bold'>AutoAPIEval: A Framework for Automated Evaluation of LLMs in API-Oriented Code Generation.</span> 10.48550/arXiv.2409.15228. 
         </li>
         <li>
-        Li, H., Bezemer, C.-P., & Hassan, A. E. (2024). <span className='bold'>Software Engineering and Foundation Models: Insights from Industry Blogs Using a Jury of Foundation Models.</span> http://arxiv.org/abs/2410.09012
+        Tang, Xunzhu & Kim, Kisub & Song, Yewei & Lothritz, Cedric & Li, Bei & Ezzini, Saad & Tian, Haoye & Klein, Jacques & Bissyandé, Tegawendé. (2024). <span className="bold">CodeAgent: Autonomous Communicative Agents for Code Review.</span> 10.13140/RG.2.2.19346.88007. 
+        </li>
+        <li>
+        Tong, Weixi, and Tianyi Zhang. <span className="bold">"CodeJudge: Evaluating Code Generation with Large Language Models."</span> arXiv preprint arXiv:2410.02184 (2024).
         </li>
         <li>
         Ahmed, S. S., Wang, S., Tian, Y., Tse-Hsun, Chen, & Zhang, H. (2024). <span className='bold'>Studying and Recommending Information Highlighting in Stack Overflow Answers.</span> http://arxiv.org/abs/2401.01472

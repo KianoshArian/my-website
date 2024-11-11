@@ -146,3 +146,8 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #b30000; 
 }
+
+* {
+    scrollbar-color: rgb(167, 185, 193) grey;
+    scrollbar-width: thin;
+}

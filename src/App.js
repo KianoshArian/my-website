@@ -6,6 +6,7 @@ import { Research } from "./pages/Research/Research";
 import { Honors } from "./pages/Honors/Honors";
 import { BookReviews } from "./pages/BookReviews/BookReviews";
 import Paper from "./pages/Paper/Paper";
+import Presentation from "./pages/Presentation/Presentation";
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/honors" element={<Honors />} />
           <Route path="/Book-Reviews" element={<BookReviews />} />
           <Route path="/Paper" element={<Paper />} />
+          <Route path="/Presentation" element={<Presentation />} />
         </Routes>
       </Sidebar>
     </Router>
